@@ -1,6 +1,6 @@
 # e1.2 - Position
-Al fixer adjunt trobaràs tot el que necessites per treballar en la pàgina. Intenta replicar la página web capturada en el fitxer  captura.JPG
 
+Al fixer adjunt trobaràs tot el que necessites per treballar en la pàgina. Intenta replicar la página web capturada en el fitxer  captura.JPG
 
 Guarda-ho en el repositori d’exercicis en una carpeta anomenada “e1.2 - position”
 

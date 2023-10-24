@@ -1,4 +1,5 @@
-
+# Gulp - Kittens
+---
 Crea un projecte anomenat "Kittens" mitjançant npm. Aleshores, afegeix Gulp per automatitzar les següents tasques:
 
 1- Tasca "sass". Compilar els arxius .scss de la carpeta "sass" i ficar-los dins una carpeta anomenada "css"
