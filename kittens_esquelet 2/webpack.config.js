@@ -16,18 +16,20 @@ module.exports = {
     module: {
         rules: [
             {
+                // implenents file .css
                 test: /\.css$/,
                 use: [
-                    'style-loader',
-                    'css-loader'
+                    'style-loader', //implement CSS in DOM
+                    'css-loader' // translates CSS into CommonJS resolve dependencies
                 ]
             },
             {
+                // implenents file .sassy .scss
                 test: /\.s[ac]ss$/i,
                 use: [
-                    'style-loader',
-                    'css-loader',
-                    'sass-loader'
+                    'style-loader', //implement CSS in DOM
+                    'css-loader',  // translates CSS into CommonJS resolve dependencies
+                    'sass-loader' // compiles Sass to CSS, using Node Sass by default
                 ]
             }
         ]
