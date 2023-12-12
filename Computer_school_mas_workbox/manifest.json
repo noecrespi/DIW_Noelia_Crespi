@@ -1,0 +1,75 @@
+{
+    "short_name": "Computer School",
+    "name": "Computer School",
+    "icons": [
+        {
+            "src": "img/logo.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#0006af",
+    "description": "Best computer school ever",
+    "screenshots": [
+        {
+            "src": "img/fotofrontal.jpg",
+            "type": "image/jpg",
+            "sizes": "720x540",
+            "form_factor": "wide"
+        }
+    ],
+    "shortcuts": [ 
+        {
+            "name": "Link1",
+            "short_name": "Link1",
+            "description": "Link1 Description",
+            "url": "/link1.html",
+            "icons": [
+                {
+                    "src": "img/javascript.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Link2",
+            "short_name": "Link2",
+            "description": "Link2 Description",
+            "url": "/link2.html",
+            "icons": [
+                {
+                    "src": "img/angular.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Link3",
+            "short_name": "Link3",
+            "description": "Link3 Description",
+            "url": "/link3.html",
+            "icons": [
+                {
+                    "src": "img/php.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Link4",
+            "short_name": "Link4",
+            "description": "Link4 Description",
+            "url": "/link4.html",
+            "icons": [
+                {
+                    "src": "img/html5.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
+}

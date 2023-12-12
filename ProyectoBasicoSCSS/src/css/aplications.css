@@ -1,0 +1,113 @@
+header {
+  background-color: green;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+}
+
+div.hola {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  background-color: aqua;
+  margin: 8px 0px;
+  padding: 8px;
+  box-shadow: 5px 5px 3px 3px grey;
+}
+.menu li:hover {
+  background-color: blue;
+  color: white;
+}
+
+.col-1 {
+  float: left;
+  padding: 0.5rem;
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  float: left;
+  padding: 0.5rem;
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  float: left;
+  padding: 0.5rem;
+  width: 25%;
+}
+
+.col-4 {
+  float: left;
+  padding: 0.5rem;
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  float: left;
+  padding: 0.5rem;
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  float: left;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.col-7 {
+  float: left;
+  padding: 0.5rem;
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  float: left;
+  padding: 0.5rem;
+  width: 66.6666666666%;
+}
+
+.col-9 {
+  float: left;
+  padding: 0.5rem;
+  width: 75%;
+}
+
+.col-10 {
+  float: left;
+  padding: 0.5rem;
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  float: left;
+  padding: 0.5rem;
+  width: 91.6666666666%;
+}
+
+.col-12 {
+  float: left;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+footer {
+  background-color: blue;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "computer_school_mas_workbox",
+  "version": "1.0.0",
+  "description": "Try to recreate the webpage you can see in this image as exactly as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

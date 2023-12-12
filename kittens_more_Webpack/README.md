@@ -1,9 +1,15 @@
+Crear una carpeta `src`
+Meter index.html, assets, css, js, manual, scss, ajax-email.php
+
 # Aplicacion con uso de Webpack
 
 Implementa en tu aplicacion Kittens el uso de Webpack. 
 
 - Recuerda que tienes que buscar compilar SASS. 
-
+4. Inicializar el proyecto:
+```bash
+npm init -y
+```
 ## Instalacion de Webpack
 ```bash
 npm install --save lodash
@@ -13,18 +19,18 @@ npm install --save lodash
 Como una dependencia de desarrollo en tu proyecto Node.js
 
 ```bash
-npm i --save-dev html-webpack-plugin
+sudo npm i --save-dev html-webpack-plugin
 ```
 ## Instala la biblioteca jQuery en tu proyecto
 Ademas añade las dependencies en el archivo package.json
 ```bash
-npm install jquery --save
+sudo npm install jquery --save
 ```
 
 ## Instalar style-loader y css-loader como dependencias 
 Estos son loaders utilizados por Webpack para procesar archivos CSS.
 ```bash
-npm install --save-dev style-loader css-loader
+sudo npm install --save-dev style-loader css-loader
 ```
 
 ## Instalar sass-loader y node-sas como dependencias de desarrollo
