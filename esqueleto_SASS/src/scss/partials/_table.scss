@@ -1,0 +1,15 @@
+// table style
+
+// general characteristics of the table
+table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+// specific characteristics of the table
+td, th {
+    border: 1px solid black; 
+    padding: 8px; 
+    width: 25%;
+    padding: 0;
+}

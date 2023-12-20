@@ -1,0 +1,18 @@
+// colors style
+$colorsStile: (
+    "success": #2ecc72,
+    "warning": #f1c40f,
+    "error": #e74c3c,
+    "normal": #333333,
+);
+
+// effects of images
+$effectsImg: (
+    "grayscale": grayscale(100%),
+    "blur": blur(5px),
+    "sepia": sepia(100%),
+    "hue-rotate": hue-rotate(150deg),
+    "invert": invert(0.5),
+    "brightness": brightness(70%),
+    "contrast": contrast(2),
+);

@@ -1,0 +1,78 @@
+// // general characteristics
+* {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+}
+
+// WEBKIT Y MOZ
+@mixin vendor($property, $value) {
+    -webkit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    #{$property}: $value;
+}
+
+div.hola {
+    @include vendor(transform, rotate(180deg));
+}
+
+// poner todos los textos justificados
+p {
+    text-align: justify;
+}
+
+// seze for h
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: 2em - 0.2em * $i;
+    }
+}
+
+// letter color
+@each $name, $color in $colorsStile {
+    
+    .#{$name} {
+        color: $color;
+    }
+
+    // Sus respectivos fondos son un 25% más oscuros en el caso de suceso, warning y error y un 50% más claro en el caso del estado normal.
+    @if $name == "success" or $name == "warning" or $name == "error" {
+        .#{$name} {
+            background-color: darken($color, 25%);
+        }
+    } 
+}
+
+
+// set the colors of the texts "p" and "h" with the established colors
+@mixin normalStyle {
+    color: map-get($colorsStile, normal);
+    background-color: lighten(map-get($colorsStile, normal), 50%);
+}
+
+
+p:not([class]) {
+    @include normalStyle;
+}
+
+@for $i from 1 through 6 {
+    h#{$i}:not([class]) {
+        @include normalStyle;
+    }
+}
+
+
+@for $i from 0 through 10 {
+    @for $j from 0 through 10 {
+        @for $k from 0 through 10 {
+
+            .color-#{$i*10}-#{$j*10}-#{$k*10} {
+                color: rgb($i*25.5, $j*25.5, $k*25.5);
+            }
+
+            .colorbg-#{$i*10}-#{$j*10}-#{$k*10} {
+                background-color: rgb($i*25.5, $j*25.5, $k*25.5);
+            }
+        }
+    }
+}
